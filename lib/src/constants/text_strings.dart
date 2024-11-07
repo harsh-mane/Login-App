@@ -57,4 +57,21 @@ const String tForgetPhoneSubTitle =
     "Enter your registerd phone number to recieve OTP";
 
 //Forget password via E-Mail Text
-const String tForgetMailSubTitle = "Enter your registerd E-Mail number to recieve OTP";
+const String tForgetMailSubTitle =
+    "Enter your registerd E-Mail number to recieve OTP";
+
+//otp screen text
+const String tOtpTitle = "co\nde";
+const String tOtpSubTitle = "Verification";
+const tOtpMessage = "Enter the verification code sent at";
+
+// Dashboard Screen Text
+
+const String tDashboardTitle = "Hey, Coding with ABC";
+const String tDashboardHeading = "Explore Courses";
+const String tDashboardSearch = "Search...";
+const String tDashboardTitleBannerTitle1 = "Android for Begginers";
+const String tDashboardTitleBannerTitle2 = "Python";
+const String tDashboardTitleBannerSubTitle = "10 Lessons";
+const String tDashboardButton = "View All";
+const String tDashboardTopCourses = "Top Courses";

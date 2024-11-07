@@ -7,7 +7,7 @@ import 'package:login_flutter_app/src/common_widgets/fade_in_animation/fade_in_a
 import 'package:get/get.dart';
 
 class SplashScreen extends StatelessWidget {
-  SplashScreen({super.key});
+  const SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -4,6 +4,7 @@ import 'package:login_flutter_app/src/constants/sizes.dart';
 import 'package:login_flutter_app/src/constants/text_strings.dart';
 import 'package:login_flutter_app/src/features/authentication/screens/forget_password/forget_password_mail/forget_password_mail.dart';
 import 'package:login_flutter_app/src/features/authentication/screens/forget_password/forget_password_options/forget_password_btn_widget.dart';
+import 'package:login_flutter_app/src/features/authentication/screens/forget_password/forget_password_phone/forget_password_phone.dart';
 
 class ForgetPasswordScreen {
   static Future<dynamic> buildShowModalBottomSheet(BuildContext context) {
@@ -39,7 +40,10 @@ class ForgetPasswordScreen {
               height: 20.0,
             ),
             ForgetPasswordBTNWidget(
-              onTap: () {},
+              onTap: () {
+                 Navigator.pop(context);
+                Get.to(() => ForgetPasswordPhone());
+              },
               btnIcon: Icons.mobile_friendly_outlined,
               title: tPhoneNo,
               subTitle: tResetViaPhone,
