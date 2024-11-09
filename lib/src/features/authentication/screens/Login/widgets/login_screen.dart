@@ -25,9 +25,7 @@ class LoginScreen extends StatelessWidget {
                 FormHeaderWidget(image: tWelcomeScreenImage,title: tLoginTitle,subTitle: tLoginSubTitle,),
                 LoginFormWidget(),
                 LoginFooterWidget(),
-               
-                     
-              ],
+                 ],
             
             ),
           

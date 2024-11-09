@@ -41,7 +41,6 @@ class OTPScreen extends StatelessWidget {
               fillColor: Colors.black.withOpacity(0.1),
               filled: true,
               onSubmit: (code) {
-                print("otp is =>$code");
               },
             ),
             const SizedBox(
@@ -49,7 +48,10 @@ class OTPScreen extends StatelessWidget {
             ),
             SizedBox(
                 width: double.infinity,
-                child: ElevatedButton(onPressed: () {}, child: Text("Next")))
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: Text("Next"),
+                ))
           ],
         ),
       ),

@@ -23,3 +23,4 @@ const String tBannerImage1 = "assets/images/book_two.png";
 const String tBannerImage2 = "assets/images/book_four.png";
 const String tTopCourseImage1 = "assets/images/book_five.png";
 const String tTopCourseImage2 = "assets/images/images.png";
+const String tBookmarkIcon = "assets/images/bookmark_icon.png";
